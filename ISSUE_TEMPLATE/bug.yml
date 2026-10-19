@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a defect in a repository
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not report security vulnerabilities here. Use SECURITY.md."
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      placeholder: eia-policy-domain
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Version, commit, browser, database, or deployment details.

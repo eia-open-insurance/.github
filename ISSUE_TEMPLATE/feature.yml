@@ -1,0 +1,33 @@
+name: Feature request
+description: Propose a capability or design change
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      placeholder: eia-policy-domain
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Data model, API, security, book wall, migration, or compatibility impact.
