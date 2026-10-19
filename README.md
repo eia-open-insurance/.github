@@ -1,7 +1,7 @@
 # .github
 
-- GitHub organization: `eia-platform`
-- Repository URL: https://github.com/eia-platform/.github
+- GitHub organization: `eia-open-insurance`
+- Repository URL: https://github.com/eia-open-insurance/.github
 - Type: Organization profile
 - Deployable: No
 - Owner: Platform
@@ -34,3 +34,6 @@ Organization profile, issue and pull-request templates, reusable GitHub Actions 
 
 This is the GitHub organization .github repository.
 
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
