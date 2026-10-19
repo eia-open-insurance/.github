@@ -14,8 +14,8 @@ Open-source policy, claims, and reinsurance administration for commercial mass t
 
 A specification-first insurance administration platform for two separate books:
 
-- `PRIMARY`: Policy + Primary claims + Cession
-- `REINSURANCE`: Contract + Reinsurance claims + Retrocession
+- `DIRECT`: Policy + Direct claims + Cession
+- `ASSUMED`: Contract + Assumed claims + Retrocession
 
 Ten verticals, each with its own front-end, domain service, expert service, and database. One deployable component per repository.
 
