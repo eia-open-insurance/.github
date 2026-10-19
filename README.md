@@ -5,30 +5,29 @@
 - Type: Organization profile
 - Deployable: No
 - Owner: Platform
-- Runtime: GitHub Actions and YAML
+- Runtime: Markdown and YAML
 - Data store: Not applicable
 - Depends on: None
 
 ## Purpose
 
-Organization profile, issue and pull-request templates, reusable GitHub Actions workflows, and organization-level policy.
+Organization profile, issue and pull-request templates, and organization-level policy.
 
 ## Responsibilities
 
 - Keep this repository focused on one deployable component or one platform concern.
 - Follow the repository standard in `../CONVENTIONS.md` and the specification in `../../SPEC.md`.
 - Publish and consume contracts through `eia-contracts`.
-- Maintain README, CODEOWNERS, SECURITY, CHANGELOG, tests, and CI.
+- Maintain README, CODEOWNERS, SECURITY, CHANGELOG, tests, and local verification.
 - Contain no business logic in shared libraries or front-end remotes.
 
-## Required checks
+## Verification
 
 - Lint and format
 - Unit tests with 100% business-logic coverage where applicable
 - Contract tests
 - Integration or Playwright tests where applicable
 - Security scan and SBOM
-- Build and publish
 
 ## Notes
 
