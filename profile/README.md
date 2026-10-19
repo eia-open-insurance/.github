@@ -30,3 +30,8 @@ Apache License 2.0. Contributions use the Developer Certificate of Origin; no CL
 ## Independence
 
 EIA Open Insurance is independent and is not affiliated with or endorsed by SAP, ACORD, NAIC, ISO, Verisk, or any carrier, broker, or regulator.
+
+## Contact
+
+support@rmburgess.com
+

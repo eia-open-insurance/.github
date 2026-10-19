@@ -6,3 +6,6 @@
 - Commercial support: not offered by the project.
 
 This is a volunteer open-source project. There is no SLA.
+
+Email: support@rmburgess.com
+
