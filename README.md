@@ -59,12 +59,12 @@ The repository topology is one repository per individually deployable component.
 | Group | Count | Examples |
 |---|---:|---|
 | Vertical applications | 30 | `eia-policy-web`, `eia-policy-domain`, `eia-policy-expert` |
-| Platform services | 5 | `eia-shell`, `eia-gateway`, `eia-auth`, `eia-config`, `eia-lineage` |
-| Shared libraries | 2 | `eia-open-insurance-libs`, `eia-frontend-platform` |
-| Contracts and architecture | 3 | `eia-contracts`, `eia-architecture`, `eia-docs` |
-| Test infrastructure | 2 | `eia-simulators`, `eia-e2e` |
-| Infrastructure and release | 4 | `eia-infra`, `eia-environments`, `eia-observability`, `eia-release` |
-| Security | 1 | `eia-security` |
+| Platform services | 5 | `eia-frontend/shell`, `eia-platform/gateway`, `eia-platform/auth`, `eia-platform/config`, `eia-platform/lineage` |
+| Shared libraries | 2 | `eia-platform/libs`, `eia-frontend/packages` |
+| Contracts and architecture | 3 | `eia-contracts`, `eia/architecture`, `eia/docs` |
+| Test infrastructure | 2 | `eia-quality/simulators`, `eia-quality/e2e` |
+| Infrastructure and release | 4 | `eia-ops/infra`, `eia-ops/environments`, `eia-ops/observability`, `eia-ops/release` |
+| Security | 1 | `eia-ops/security` |
 | Organization profile | 1 | `.github` |
 | Umbrella repository | 1 | `eia` |
 | **Total** | **49** | |
