@@ -1,6 +1,6 @@
 # EIA Open Insurance
 
-Open-source policy, claims, and reinsurance administration for commercial mass tort and assumed reinsurance.
+Open-source policy, claims, and reinsurance administration for commercial mass tort and reinsurance.
 
 ## Start here
 
@@ -14,8 +14,8 @@ Open-source policy, claims, and reinsurance administration for commercial mass t
 
 A specification-first insurance administration platform for two separate books:
 
-- `DIRECT`: Policy + Direct claims + Cession
-- `ASSUMED`: Contract + Assumed claims + Retrocession
+- `PRIMARY`: Policy + Primary claims + Cession
+- `REINSURANCE`: Contract + Reinsurance claims + Retrocession
 
 Ten verticals, each with its own front-end, domain service, expert service, and database. One deployable component per repository.
 
